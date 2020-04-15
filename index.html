@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>editor</title>
+  <link rel="stylesheet" href="./style.css">
+  
+</head>
+<body>
+
+<div class="code-area">
+  <textarea id="htmlCode" placeholder="HTML Code" 
+            oninput="showPreview()"></textarea>
+  <textarea id="cssCode" placeholder="CSS Code" 
+            oninput="showPreview()"></textarea>
+  <textarea id="jsCode" placeholder="JavaScript Code" 
+            oninput="showPreview()"></textarea>				
+</div>
+<div class="preview-area">
+  <iframe id="preview-window"></iframe>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+  <script  src="script.js"></script>
+
+</body>
+</html>
